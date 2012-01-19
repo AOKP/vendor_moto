@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/stingray/proprietary/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/moto/stingray/proprietary/libims_client_jni.so:system/lib/libims_client_jni.so \
     vendor/moto/stingray/proprietary/libmoto_ecnswrapper.so:system/lib/libmoto_ecnswrapper.so \
+    vendor/moto/stingray/proprietary/libmoto_lte_ril.so:system/lib/libmoto_lte_ril.so \
     vendor/moto/stingray/proprietary/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/moto/stingray/proprietary/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/moto/stingray/proprietary/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \
@@ -109,5 +110,8 @@ PRODUCT_PACKAGES += \
     MotoModemUtil \
     MotoSimUiHelper \
     StingrayProgramMenu \
-    StingrayProgramMenuSystem
+    StingrayProgramMenuSystem \
+    UsbHelper \
+    VZWAPNLib \
+    VZWAPNService
 
