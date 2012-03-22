@@ -1,0 +1,4 @@
+# include xbin
+PRODUCT_COPY_FILES += \
+vendor/moto/maserati/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
+vendor/moto/maserati/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \

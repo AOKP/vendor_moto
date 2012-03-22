@@ -1,0 +1,9 @@
+echo "# include $1" > output.txt
+echo "PRODUCT_COPY_FILES += \\" >> output.txt
+for file in $1/*
+do
+	if [ -f "${file}" ]
+	then
+		echo "vendor/moto/maserati/proprietary/${file}:/system/${file} \\" >> output.txt
+	fi
+done

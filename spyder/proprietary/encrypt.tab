@@ -1,0 +1,11 @@
+#
+#  pattern may contain '*' and '?'. Pattern matching alghorythm is greedy.
+#
+:email
+/data/data/com.motorola.blur.service.email/databases/email.db
+/data/data/com.motorola.blur.service.email/databases/searchindex*.db
+/data/data/com.motorola.blur.service.email/files/*
+:contacts
+/data/data/com.motorola.blur.providers.contacts/databases/*.db
+:calendar
+/data/data/com.android.providers.calendar/databases/*.db
