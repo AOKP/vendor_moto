@@ -384,3 +384,12 @@ PRODUCT_COPY_FILES += \
 vendor/moto/maserati/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/moto/maserati/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
 
+# All the apks necessary for maserati
+PRODUCT_PACKAGES += \
+    AppDirectedSmsService \
+    MotoImsServer \
+    MotoLocationProxy \
+    MotoLteTelephony \
+    MotoModemUtil \
+    VZWAPNLib \
+    VZWAPNService

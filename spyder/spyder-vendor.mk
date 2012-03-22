@@ -30,3 +30,4 @@ PRODUCT_COPY_FILES := \
 #DEVICE_PACKAGE_OVERLAYS := vendor/moto/spyder/overlay
 
 $(call inherit-product, vendor/moto/spyder/spyder-vendor-blobs.mk)
+$(call inherit-product, vendor/moto/stingray/proprietary/Android.mk)

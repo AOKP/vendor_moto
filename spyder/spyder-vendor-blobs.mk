@@ -317,3 +317,12 @@ PRODUCT_COPY_FILES += \
 vendor/moto/spyder/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/moto/spyder/proprietary/ssmgrd:/system/xbin/ssmgrd \
 
+# All the apks necessary for spyder
+PRODUCT_PACKAGES += \
+    AppDirectedSmsService \
+    MotoImsServer \
+    MotoLocationProxy \
+    MotoLteTelephony \
+    MotoModemUtil \
+    VZWAPNLib \
+    VZWAPNService

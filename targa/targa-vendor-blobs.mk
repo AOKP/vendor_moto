@@ -205,6 +205,7 @@ vendor/moto/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 vendor/moto/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/moto/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/moto/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
+vendor/moto/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/moto/targa/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/moto/targa/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/moto/targa/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
@@ -301,3 +302,12 @@ PRODUCT_COPY_FILES += \
 vendor/moto/targa/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/moto/targa/proprietary/ssmgrd:/system/xbin/ssmgrd \
 
+# All the apks necessary for targa
+PRODUCT_PACKAGES += \
+    AppDirectedSmsService \
+    MotoImsServer \
+    MotoLocationProxy \
+    MotoLteTelephony \
+    MotoModemUtil \
+    VZWAPNLib \
+    VZWAPNService

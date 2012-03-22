@@ -30,3 +30,4 @@ PRODUCT_COPY_FILES := \
 #DEVICE_PACKAGE_OVERLAYS := vendor/moto/maserati/overlay
 
 $(call inherit-product, vendor/moto/maserati/maserati-vendor-blobs.mk)
+$(call inherit-product, vendor/moto/stingray/proprietary/Android.mk)
