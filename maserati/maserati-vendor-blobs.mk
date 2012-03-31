@@ -391,5 +391,7 @@ PRODUCT_PACKAGES += \
     MotoLocationProxy \
     MotoLteTelephony \
     MotoModemUtil \
+    ProgramMenu \
+    ProgramMenuSystem \
     VZWAPNLib \
     VZWAPNService

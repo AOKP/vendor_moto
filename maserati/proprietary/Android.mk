@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ifeq ($(TARGET_DEVICE),maserati)
-LOCAL_PATH:=vendor/moto/stingray/proprietary
+LOCAL_PATH:=\$(call my-dir)
 
 include \$(CLEAR_VARS)
 
@@ -105,5 +105,3 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
 include \$(BUILD_PREBUILT)
-
-endif
