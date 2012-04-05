@@ -205,7 +205,6 @@ vendor/moto/targa/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 vendor/moto/targa/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/moto/targa/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/moto/targa/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
-vendor/moto/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/moto/targa/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/moto/targa/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
 vendor/moto/targa/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
@@ -283,6 +282,7 @@ vendor/moto/targa/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 vendor/moto/targa/proprietary/whisperd:/system/bin/whisperd \
 vendor/moto/targa/proprietary/libreference-cdma-sms.so:/system/lib/libreference-cdma-sms.so \
 
+#vendor/moto/targa/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 #vendor/moto/targa/proprietary/libipsec.so:/system/lib/libipsec.so \
 # system/lib/ducati
 PRODUCT_COPY_FILES += \

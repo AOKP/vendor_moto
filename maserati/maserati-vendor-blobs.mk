@@ -262,7 +262,6 @@ vendor/moto/maserati/proprietary/lib/libhdcp.so:/system/lib/libhdcp.so \
 vendor/moto/maserati/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
 vendor/moto/maserati/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/moto/maserati/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
-vendor/moto/maserati/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/moto/maserati/proprietary/lib/libipsec.so:/system/lib/libipsec.so \
 vendor/moto/maserati/proprietary/lib/libjanus.so:/system/lib/libjanus.so \
 vendor/moto/maserati/proprietary/lib/libjni_nwp.so:/system/lib/libjni_nwp.so \
@@ -333,6 +332,7 @@ vendor/moto/maserati/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/moto/maserati/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/moto/maserati/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 
+#vendor/moto/maserati/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 # include lib/ducati
 PRODUCT_COPY_FILES += \
 vendor/moto/maserati/proprietary/lib/ducati/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \

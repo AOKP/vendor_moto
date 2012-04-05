@@ -292,13 +292,13 @@ vendor/moto/spyder/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.
 vendor/moto/spyder/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 vendor/moto/spyder/proprietary/mountosh:/system/bin/mountosh \
 vendor/moto/spyder/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
-vendor/moto/spyder/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/moto/spyder/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/moto/spyder/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/moto/spyder/proprietary/libportaljni.so:/system/lib/libportaljni.so \
 vendor/moto/spyder/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/moto/spyder/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
+#vendor/moto/spyder/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 #vendor/moto/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
