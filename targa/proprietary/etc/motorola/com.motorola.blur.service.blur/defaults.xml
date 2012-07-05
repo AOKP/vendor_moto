@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+  <string name="blur.service.checkin.tags">BlurServiceMother,cUs,DevicePushListener,DevicePushListener,DeviceReconnectManager,DownloadActivity,global frequency,MediaMule,PhotoUploadReqWS,PowerProfileToggler,SyncActivityLog,SyncDataListener,Updater,WSBase,XMPPConnectionManager</string>
+  <string name="blur.service.checkin.event_tags">BLUR_APP_STATS,BLUR_APP_USAGE,BROWSER_TIME_LANDSCAPE,BROWSER_TIME_PORTRAIT,MOT_APP_STATS,MOT_BRW_STATS_L1,MOT_BRW_STATS_L2,MOT_BRW_STATS_L3,MOT_CA_LOC,MOT_CA_STATS_L1,MOT_CA_STATS_L2,MOT_CA_STATS_L3,MOT_CA_STATS_L4,MOT_CA_STATS_L5,MOT_DEVICE_KPI_L1,MOT_DEVICE_KPI_L2,MOT_DEVICE_STATS,MOT_DEVICE_STATS_L1,MOT_DEVICE_STATS_L2,MOT_MSG_STATS_L1,MOT_MSG_STATS_L2,MOT_MSG_STATS_L3,MOT_MSG_STATS_L4,MOT_MEDIA_STATS_L1,MOT_MEDIA_STATS_L2,MOT_DEVICE_ACCUM_STATS,DEVICE_PROPERTIES,CHECKIN_FAILURE,CHECKIN_SUCCESS</string>
+  <string name="blur.service.checkin.kernel_log">1</string>
+  <string name="blur.service.checkin.kernel_events">50020,50021,50022,50023,50024,50025,30008</string>
+  <string name="blur.service.checkin.crash_log">1</string>
+  <string name="blur.service.checkin.misc_log">1</string>
+</map>

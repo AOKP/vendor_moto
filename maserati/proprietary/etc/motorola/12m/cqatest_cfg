@@ -1,0 +1,8 @@
+com.motorola.motocit.display.testPatterns.Focus
+com.motorola.motocit.display.testPatterns.Dark
+com.motorola.motocit.display.testPatterns.BlackReverseOrientation
+com.motorola.motocit.display.testPatterns.WhiteBlackBorderReverseOrientation
+com.motorola.motocit.display.testPatterns.BlackWhiteBorderReverseOrientation
+com.motorola.motocit.touchscreen.Touch_mXT1386_Short
+com.motorola.motocit.touchscreen.Touch_MXT1386
+com.motorola.motocit.camera.SnapAllResolutions

@@ -1,0 +1,5 @@
+<!-- This is used for video on demand to prevent playing content over hdmi. -->
+
+<permissions>
+    <feature name="vzw.hardware.hdmi"/>
+</permissions>
